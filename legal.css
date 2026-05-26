@@ -46,19 +46,6 @@ nav {
   font-weight: 500;
 }
 .nav-back:hover { color: var(--ink); }
-.lang-switch {
-  display: flex; gap: 0.3rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-.lang-switch a {
-  color: var(--muted);
-  text-decoration: none;
-  padding: 0.4rem 0.7rem;
-  border-radius: 100px;
-  transition: all 0.2s;
-}
-.lang-switch a.active { color: white; background: var(--ink); }
 
 .doc-wrap {
   max-width: 760px;
